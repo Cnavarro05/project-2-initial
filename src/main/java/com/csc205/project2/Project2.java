@@ -35,6 +35,15 @@ public class Project2 {
 
         Sphere sphere = new Sphere(2.0);
         System.out.println(sphere);
+
+        Cube cube = new Cube(5.0);
+        System.out.println(cube);
+
+        Cylinder cylinder = new Cylinder();
+        System.out.println(cylinder);
+
+        Cuboid cuboid = new Cuboid();
+        System.out.println(cuboid);
     }
 
 }

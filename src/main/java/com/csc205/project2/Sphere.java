@@ -1,6 +1,6 @@
 package com.csc205.project2;
 
-public class Sphere {
+public class Sphere extends Shape {
 
     private double radius;
 
@@ -38,5 +38,6 @@ public class Sphere {
         sb.append(", volume=").append(volume());
         sb.append('}');
         return sb.toString();
+
     }
 }
